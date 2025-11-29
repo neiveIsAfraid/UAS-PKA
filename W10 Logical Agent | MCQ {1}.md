@@ -215,3 +215,5 @@ A. It is a disjunction of literals with zero positive literals.\
 B. It is any sentence that uses Skolem constants.\
 C. It is an atomic sentence or an implication whose antecedent is a conjunction of positive literals and whose consequent is a single positive literal.\
 D. It must include function symbols but no constant symbols.\
+
+[This is the answer](https://github.com/neiveIsAfraid/UAS-PKA/blob/main/W10%20Logical%20Agent%20%7C%20MCQ%20Answers%20%7B1%7D.md)
