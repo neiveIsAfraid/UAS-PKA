@@ -10,3 +10,5 @@
 8.  Why is decomposing a multiattribute utility function into an **additive value function** often highly desirable, even if the strict independence assumption is sometimes violated?
 9.  In the context of unknown preferences (e.g., a robot interacting with a human), explain why a rational machine might choose to **defer to the human** or allow itself to be switched off.
 10. The VPI of a sequence of observations is **order independent**. What computational advantage does this property offer to an agent designing an information-gathering strategy?
+
+[This is the real answer](https://github.com/neiveIsAfraid/UAS-PKA/blob/main/W13%20Making%20Simple%20Decisions%20%7C%20Short%20Real%20Answer%7B1%7D.md)
