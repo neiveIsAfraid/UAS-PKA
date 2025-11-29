@@ -8,3 +8,6 @@
 6.  How does the structural property of a tree-structured constraint graph allow for the CSP to be solved in time linear in the number of variables, and what algorithm exploits this?
 7.  In constraint propagation, why are special-purpose inference algorithms for global constraints (like *Alldiff*) sometimes more effective than translating those constraints purely into equivalent binary constraints?
 8.  What is the computational tradeoff when utilizing cutset conditioning, specifically comparing the size of the chosen cycle cutset ($c$) against the overall complexity?
+
+### Answer
+[This is the answer](https://github.com/neiveIsAfraid/UAS-PKA/blob/main/W9%20CSP%20%7C%20Short%20Question%20Answer%20%7B1%7D.md)
