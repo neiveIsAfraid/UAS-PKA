@@ -1,0 +1,46 @@
+### Solutions Section
+
+**1. Correct Answer: B**
+"In this chapter we break open the black box by using a factored representation for each state: a set of variables, each of which has a value."
+
+**2. Correct Answer: B**
+"It can be helpful to visualize a CSP as a constraint graph... The nodes of the graph correspond to variables of the problem, and an edge connects any two variables that participate in a constraint."
+
+**3. Correct Answer: C**
+"A third [reason to formulate a problem as a CSP] is that a CSP solver can quickly prune large swathes of the search space that an atomic state-space searcher cannot."
+
+**4. Correct Answer: C**
+"The simplest type is the unary constraint, which restricts the value of a single variable."
+
+**5. Correct Answer: D**
+"Remember that a global constraint is one involving an arbitrary number of variables... For example, the Alldiff constraint says that all the variables involved must have distinct values (as in the cryptarithmetic problem above and Sudoku puzzles below)."
+
+**6. Correct Answer: C**
+"every finite-domain constraint can be reduced to a set of binary constraints if enough auxiliary variables are introduced."
+
+**7. Correct Answer: C**
+"The AC-3 algorithm iteratively applies the revision step to achieve arc consistency."
+
+**8. Correct Answer: B**
+"if size of $D_i = 0$ then return false"
+
+**9. Correct Answer: C**
+"A problem with only unary and binary constraints is a binary CSP."
+
+**10. Correct Answer: C**
+"Because CSPs exhibit commutativity (the order of actions does not affect the outcome), the search space is significantly reduced by only considering a single variable assignment at each depth level."
+
+**11. Correct Answer: B**
+"the most obvious approach is to select the value that results in the minimum number of conflicts with other variables—the min-conflicts heuristic."
+
+**12. Correct Answer: C**
+"Amazingly, on the $n$-queens problem, if you don’t count the initial placement of queens, the run time of min-conflicts is roughly independent of problem size. It solves even the million-queens problem in an average of 50 steps (after the initial assignment)."
+
+**13. Correct Answer: C**
+"If the constraint graph is a tree (meaning any two variables are connected by only one path), the CSP can be solved in time linear in the number of variables..." and "Tree-structured problems can be solved in linear time."
+
+**14. Correct Answer: B**
+"Choose a subset $S$ of the CSP’s variables such that the constraint graph becomes a tree after removal of $S$. $S$ is called a cycle cutset."
+
+**15. Correct Answer: B**
+"If the cycle cutset has size $c$, then the total run time is $O(d^c \cdot (n-c)d^2)$: we have to try each of the $d^c$ combinations of values for the variables in $S$..."
