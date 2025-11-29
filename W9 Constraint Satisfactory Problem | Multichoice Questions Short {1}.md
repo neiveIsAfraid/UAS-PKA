@@ -1,0 +1,109 @@
+### Quiz Section
+
+**Question 1**\
+What is the representation of a state used in a Constraint Satisfaction Problem (CSP)?\
+A. A single, atomic, indivisible entity.\
+B. A factored representation consisting of a set of variables, each with a value.\
+C. A set of actions that lead from the initial state to the goal state.\
+D. A probability distribution over possible outcomes.\
+
+**Question 2**\
+In the context of a CSP, what does a constraint graph represent?\
+A. The flow of control between different constraints in the solving algorithm.\
+B. The connections between variables that participate in at least one constraint.\
+C. The sequence of actions that transform the initial assignment into a complete solution.\
+D. The hierarchy of variable domains from most restricted to least restricted.\
+
+**Question 3**\
+Which of the following is cited as a major benefit of formulating a problem as a CSP compared to using an atomic state-space searcher?\
+A. CSP solvers inherently find the globally optimal solution without heuristics.\
+B. CSP solvers require domain-specific code for defining transitions.\
+C. A CSP solver can quickly prune large portions of the search space by identifying combinations that violate constraints.\
+D. CSPs reduce the search space complexity from $d^n$ to $n \cdot d$.\
+
+**Question 4**\
+A constraint that restricts the value of exactly one variable is known as a:\
+A. Binary constraint\
+B. Global constraint\
+C. Unary constraint\
+D. Preference constraint\
+
+**Question 5**\
+The *Alldiff* constraint used in problems like Cryptarithmetic, which involves an arbitrary number of variables, is a prime example of which type of constraint?\
+A. Unary constraint\
+B. Binary constraint\
+C. Preference constraint\
+D. Global constraint\
+
+**Question 6**\
+Any CSP that involves arbitrary n-ary constraints can be systematically transformed into a binary CSP by:\
+A. Applying the Min-Conflicts heuristic iteratively.\
+B. Using the notion of $k$-consistency, where $k$ is the number of variables.\
+C. Introducing enough auxiliary variables to reduce constraints to sets of binary constraints.\
+D. Utilizing the constraint hypergraph structure to eliminate excess variables.\
+
+**Question 7**\
+What fundamental type of inference does the **AC-3 algorithm** primarily enforce in a Constraint Satisfaction Problem?\
+A. Path consistency (3-consistency).\
+B. Global consistency (n-consistency).\
+C. Arc consistency (2-consistency).\
+D. K-consistency for all $k>2$.\
+
+**Question 8**\
+In the AC-3 algorithm, what action signals that no solution exists for the CSP?\
+A. When the queue of arcs becomes empty.\
+B. When the size of a variable's domain is reduced to zero.\
+C. When the algorithm must revise the domain of a variable $X_i$.\
+D. When the initial assignment is found to be incomplete.\
+
+**Question 9**\
+What is a **binary CSP**?\
+A. A CSP where variables can only take on values of 0 or 1.\
+B. A CSP where constraints can be satisfied or unsatisfied.\
+C. A CSP defined only by unary and binary constraints.\
+D. A CSP that requires exactly two distinct colors for a solution, such as in map coloring.\
+
+**Question 10**\
+Backtracking search capitalizes on which property of CSPs to significantly reduce the search space compared to a standard depth-limited search on partial assignments?\
+A. Linearity, meaning the complexity scales linearly with the number of variables.\
+B. NP-completeness, allowing for efficient pruning.\
+C. Commutativity, meaning the order of actions (variable assignments) does not affect the final outcome.\
+D. Completeness, ensuring a solution will be found if one exists.\
+
+**Question 11**\
+In local search algorithms for CSPs, the **min-conflicts heuristic** works by iteratively selecting a conflicted variable and reassigning it a value that:\
+A. Maximizes the size of the variable's domain.\
+B. Minimizes the number of violated constraints.\
+C. Maximizes the number of consistent neighboring variables.\
+D. Leads to the deepest possible assignment without immediate failure.\
+
+**Question 12**\
+What empirical observation was made regarding the performance of the min-conflicts algorithm on the $N$-queens problem (for large $N$)?\
+A. The algorithm consistently fails to find a solution in a reasonable time.\
+B. The run time, excluding the initial placement, is roughly linear in $N$.\
+C. The run time is roughly independent of the problem size, solving the million-queens problem in about 50 steps.\
+D. The algorithm only works for small values of $N$, typically $N \le 100$.\
+
+**Question 13**\
+How efficient is the deterministic algorithm, **TREE-CSP-SOLVER**, for solving CSPs whose constraint graph is a tree?\
+A. Polynomial time, dependent on the square of the number of variables ($O(n^2)$).\
+B. Exponential time, dependent on the depth of the tree.\
+C. Linear time in the number of variables.\
+D. It performs equivalently to standard backtracking search.\
+
+**Question 14**\
+What is a **cycle cutset** ($S$) in the context of solving CSPs by exploiting problem structure?\
+A. A subset of variables that contains all the constraints in the problem.\
+B. A subset of variables whose removal leaves the constraint graph as a tree.\
+C. A subset of domain values that are inconsistent with all constraints.\
+D. The set of variables involved in the most conflicting constraints.\
+
+**Question 15**\
+In the cutset conditioning algorithm, if the cycle cutset has size $c$ and the total number of variables is $n$, the total run time is estimated as proportional to $O(d^c \cdot (n-c)d^2)$. What does the term $d^c$ represent?\
+A. The complexity of solving the resulting tree problem.\
+B. The exponential cost of trying every possible assignment to the variables in the cycle cutset.\
+C. The size of the largest variable domain.\
+D. The maximum number of nodes visited in the tree decomposition.\
+
+### Answers\
+[Answers Here](https://github.com/neiveIsAfraid/UAS-PKA/blob/main/W9%20Constraint%20Satisfactory%20Problem%20%7C%20MCQ%20Short%20Answers%20%7B1%7D)
